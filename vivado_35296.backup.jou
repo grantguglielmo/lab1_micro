@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep 11 16:54:21 2019
+# Process ID: 35296
+# Current directory: /home/ecelrc/students/gguglielmo/micro/vivado
+# Command line: vivado
+# Log file: /home/ecelrc/students/gguglielmo/micro/vivado/vivado.log
+# Journal file: /home/ecelrc/students/gguglielmo/micro/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {zynq_axi_cdma_0_0 zynq_axi_bram_ctrl_1_0 zynq_processing_system7_0_0 zynq_smartconnect_1_0 zynq_blk_mem_gen_0_0 zynq_smartconnect_0_0 zynq_axi_bram_ctrl_0_1 zynq_proc_sys_reset_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {zynq_axi_cdma_0_0 zynq_axi_bram_ctrl_1_0 zynq_processing_system7_0_0 zynq_smartconnect_1_0 zynq_blk_mem_gen_0_0 zynq_smartconnect_0_0 zynq_axi_bram_ctrl_0_1 zynq_proc_sys_reset_0_0}] -no_script -sync -force -quiet
+ipx::edit_ip_in_project -upgrade true -name gpio_lab_1_v1_0_project -directory /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.tmp/gpio_lab_1_v1_0_project /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]

@@ -1,0 +1,414 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:54:30 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 35296
+License: Customer
+
+Current time: 	Wed Sep 11 16:55:17 CDT 2019
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.6.1810 (Core)
+OS Version: 3.10.0-957.12.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: localhost:11.0
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 41 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/tps/lnx64/jre
+JVM executable location: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/tps/lnx64/jre/bin/java
+
+User name: 	gguglielmo
+User home directory: /home/ecelrc/students/gguglielmo
+User working directory: /home/ecelrc/students/gguglielmo/micro/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /misc/linuxws/packages/xilinx_2017.4/Vivado
+HDI_APPROOT: /usr/local/packages/xilinx_2017.4/Vivado/2017.4
+RDI_DATADIR: /misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/data
+RDI_BINDIR: /misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/bin
+
+Vivado preferences file location: /home/ecelrc/students/gguglielmo//.Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: /home/ecelrc/students/gguglielmo//.Xilinx/Vivado/2017.4/
+Vivado layouts directory: /home/ecelrc/students/gguglielmo/.Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ecelrc/students/gguglielmo/micro/vivado/vivado.log
+Vivado journal file location: 	/home/ecelrc/students/gguglielmo/micro/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-35296-daisy.ece.utexas.edu
+
+GUI allocated memory:	116 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,996 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 42 MB (+42048kb) [00:00:13]
+// [Engine Memory]: 4,994 MB (+5085547kb) [00:00:13]
+// Tcl Message: start_gui 
+// [GUI Memory]: 48 MB (+3894kb) [00:00:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,001 MB. GUI used memory: 29 MB. Current time: 9/11/19 4:55:19 PM CDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [GUI Memory]: 62 MB (+11982kb) [00:00:23]
+setFileChooser("/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.xpr");
+// [GUI Memory]: 66 MB (+840kb) [00:00:25]
+// aL (cj): Older Project Version: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.xpr. Version: Vivado v2016.4 
+// bs (cj):  Open Project : addNotify
+dismissDialog("Older Project Version"); // aL (cj)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 74 MB (+4329kb) [00:00:39]
+// Tcl Message: open_project /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2017.4/Vivado/2017.4/data/ip'. 
+// Tcl Message: INFO: [Project 1-230] Project 'lab_1.xpr' upgraded for this version of Vivado. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,177 MB. GUI used memory: 40 MB. Current time: 9/11/19 4:55:42 PM CDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 6295.250 ; gain = 129.094 ; free physical = 124325 ; free virtual = 136371 
+// Project name: lab_1; location: /home/ecelrc/students/gguglielmo/micro/vivado/lab_1; part: xc7z020clg484-1
+// 'i' command handler elapsed time: 21 seconds
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// aj (cj): Project Upgraded: addNotify
+// Elapsed time: 44 seconds
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, "Report IP Status"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Project Upgraded"); // aj (cj)
+// Tcl Message: report_ip_status -name ip_status  
+// bs (cj):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bs (cj)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cj)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceCommand.PACommandNames_UPGRADE_IP_OK", "OK"); // JButton (A, G)
+// TclEventType: LOAD_FEATURE
+// bs (cj):  Upgrade IP : addNotify
+// Tcl Message: upgrade_ip [get_ips  {zynq_axi_cdma_0_0 zynq_axi_bram_ctrl_1_0 zynq_processing_system7_0_0 zynq_smartconnect_1_0 zynq_blk_mem_gen_0_0 zynq_smartconnect_0_0 zynq_axi_bram_ctrl_0_1 zynq_proc_sys_reset_0_0}] -log ip_upgrade.log 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - blk_mem_gen_0 Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0 Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_1 Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0 Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1 Adding cell -- xilinx.com:ip:axi_cdma:4.1 - axi_cdma_0 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Successfully read diagram <zynq> from BD file </home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.srcs/sources_1/bd/zynq/zynq.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Upgrading '/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.srcs/sources_1/bd/zynq/zynq.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded zynq_axi_cdma_0_0 (AXI Central Direct Memory Access 4.1) from revision 11 to revision 15 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 
+// [GUI Memory]: 80 MB (+2953kb) [00:01:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,243 MB. GUI used memory: 45 MB. Current time: 9/11/19 4:56:54 PM CDT
+// [Engine Memory]: 5,268 MB (+24609kb) [00:01:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,291 MB. GUI used memory: 44 MB. Current time: 9/11/19 4:57:44 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded zynq_blk_mem_gen_0_0 from Block Memory Generator 8.3 to Block Memory Generator 8.4 INFO: [IP_Flow 19-3422] Upgraded zynq_proc_sys_reset_0_0 (Processor System Reset 5.0) from revision 10 to revision 12 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded zynq_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 3 to revision 6 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,438 MB. GUI used memory: 44 MB. Current time: 9/11/19 4:57:59 PM CDT
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded zynq_smartconnect_0_0 (AXI SmartConnect 1.0) from revision 3 to revision 7 INFO: [IP_Flow 19-3422] Upgraded zynq_smartconnect_1_0 (AXI SmartConnect 1.0) from revision 3 to revision 7 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /zynq 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.srcs/sources_1/bd/zynq/zynq.bd>  Wrote  : </home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.srcs/sources_1/bd/zynq/ui/bd_e1a0d542.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:41 ; elapsed = 00:01:23 . Memory (MB): peak = 6602.664 ; gain = 272.062 ; free physical = 123976 ; free virtual = 136099 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {zynq_axi_cdma_0_0 zynq_axi_bram_ctrl_1_0 zynq_processing_system7_0_0 zynq_smartconnect_1_0 zynq_blk_mem_gen_0_0 zynq_smartconnect_0_0 zynq_axi_bram_ctrl_0_1 zynq_proc_sys_reset_0_0}] -no_script -sync -force -quiet 
+// au (cj): Generate Output Products: addNotify
+// Elapsed time: 87 seconds
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Generate Output Products"); // au (cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cj)
+// PAPropertyPanels.initPanels (GPIO.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, GPIO.xdc]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, GPIO.xdc]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 84 MB (+318kb) [00:03:22]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// [GUI Memory]: 89 MB (+573kb) [00:03:29]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_IP_LOCATION, "Open IP Location..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_IP_LOCATION
+// Elapsed time: 21 seconds
+dismissFolderChooser();
+// 'C' command handler elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bs (cj):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bs (cj)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 1); // O (O, cj)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpio_lab_1_v1.0 ; AXI4 ; Pre-Production ; Included ; ecelrc:user:gpio_lab_1:1.0", 2, "gpio_lab_1_v1.0", 0, false); // O (O, cj)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpio_lab_1_v1.0 ; AXI4 ; Pre-Production ; Included ; ecelrc:user:gpio_lab_1:1.0", 2, "gpio_lab_1_v1.0", 0, false, false, false, false, false, true); // O (O, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// 'i' command handler elapsed time: 3 seconds
+selectButton("PAResourceAtoD.CustomizeCore_ADD_IP_TO_BLOCK_DESIGN_OR_CUSTOMIZE_Customize IP", "Customize IP"); // JButton (A, G)
+// r (cj): Customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,506 MB. GUI used memory: 53 MB. Current time: 9/11/19 4:59:40 PM CDT
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Customize IP"); // r (cj)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpio_lab_1_v1.0 ; AXI4 ; Pre-Production ; Included ; ecelrc:user:gpio_lab_1:1.0", 2, "gpio_lab_1_v1.0", 0, false, false, false, false, true, false); // O (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cj): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// bs (cj):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name gpio_lab_1_v1_0_project -directory /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.tmp/gpio_lab_1_v1_0_project /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2017.4/Vivado/2017.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [GUI Memory]: 95 MB (+1189kb) [00:05:01]
+// Tcl Message: create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 6666.629 ; gain = 5.004 ; free physical = 123946 ; free virtual = 136075 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 6673.625 ; gain = 12.000 ; free physical = 123942 ; free virtual = 136070 
+// 'i' command handler elapsed time: 12 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 5,534 MB (+3079kb) [00:05:05]
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, cj)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // K (O, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,539 MB. GUI used memory: 66 MB. Current time: 9/11/19 5:00:10 PM CDT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 0); // K (O, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 101 MB (+1095kb) [00:05:29]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - gpio_lab_1", 1); // k (j, cj)
+collapseTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 0); // K (O, cj)
+collapseTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // K (O, cj)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 0); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 0, "S00_AXI", 0, true); // K (O, cj) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 0, "S00_AXI", 0, true, false, false, false, true, false); // K (O, cj) - Popup Trigger - Node
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// Elapsed time: 19 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, cj)
+// [GUI Memory]: 107 MB (+1758kb) [00:06:45]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// Elapsed time: 78 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, cj)
+// Elapsed time: 92 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 8, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 8, false, false, false, false, false, true); // B (D, cj) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, cj)
+// [GUI Memory]: 116 MB (+3462kb) [00:09:44]
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,562 MB. GUI used memory: 69 MB. Current time: 9/11/19 5:04:55 PM CDT
+selectCodeEditor("gpio_lab_1_v1_0.v", 160, 260); // cd (w, cj)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 5,578 MB. GUI used memory: 69 MB. Current time: 9/11/19 5:05:20 PM CDT
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 95 seconds
+selectCodeEditor("gpio_lab_1_v1_0.v", 270, 39); // cd (w, cj)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - gpio_lab_1", 1); // k (j, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, cj)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cj)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, cj)
+// Elapsed time: 17 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// bs (cj):  Package IP : addNotify
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 124 MB (+2299kb) [00:12:27]
+// Elapsed time: 10 seconds
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton (A, G)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Net 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 

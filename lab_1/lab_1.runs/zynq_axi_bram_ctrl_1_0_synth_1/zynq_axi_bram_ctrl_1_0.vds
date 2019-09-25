@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep 18 17:19:19 2019
+# Process ID: 44115
+# Current directory: /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_bram_ctrl_1_0_synth_1
+# Command line: vivado -log zynq_axi_bram_ctrl_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_axi_bram_ctrl_1_0.tcl
+# Log file: /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_bram_ctrl_1_0_synth_1/zynq_axi_bram_ctrl_1_0.vds
+# Journal file: /home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_bram_ctrl_1_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zynq_axi_bram_ctrl_1_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP zynq_axi_bram_ctrl_1_0, cache-ID = 813d341dbf355f45.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 18 17:19:38 2019...

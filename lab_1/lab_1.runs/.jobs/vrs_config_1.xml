@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zynq_processing_system7_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_blk_mem_gen_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_axi_bram_ctrl_0_1_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_bram_ctrl_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_axi_bram_ctrl_1_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_bram_ctrl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zynq_axi_bram_ctrl_0_1_synth_1"/>
+	</Run>
+	<Run Id="zynq_smartconnect_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_smartconnect_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_smartconnect_1_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_smartconnect_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_axi_cdma_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_axi_cdma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_proc_sys_reset_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zynq_gpio_lab_1_0_0_synth_1" LaunchDir="/home/ecelrc/students/gguglielmo/micro/vivado/lab_1/lab_1.runs/zynq_gpio_lab_1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

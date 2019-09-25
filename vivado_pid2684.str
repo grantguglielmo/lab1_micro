@@ -1,0 +1,158 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:54:30 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 2684
+License: Customer
+
+Current time: 	Tue Sep 24 13:27:50 CDT 2019
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.6.1810 (Core)
+OS Version: 3.10.0-957.12.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: localhost:12.0
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 40 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/tps/lnx64/jre
+JVM executable location: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/tps/lnx64/jre/bin/java
+
+User name: 	gguglielmo
+User home directory: /home/ecelrc/students/gguglielmo
+User working directory: /home/ecelrc/students/gguglielmo/micro/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /misc/linuxws/packages/xilinx_2017.4/Vivado
+HDI_APPROOT: /usr/local/packages/xilinx_2017.4/Vivado/2017.4
+RDI_DATADIR: /misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/data
+RDI_BINDIR: /misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/bin
+
+Vivado preferences file location: /home/ecelrc/students/gguglielmo//.Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: /home/ecelrc/students/gguglielmo//.Xilinx/Vivado/2017.4/
+Vivado layouts directory: /home/ecelrc/students/gguglielmo/.Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	/misc/linuxws/packages/xilinx_2017.4/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ecelrc/students/gguglielmo/micro/vivado/vivado.log
+Vivado journal file location: 	/home/ecelrc/students/gguglielmo/micro/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2684-daisy.ece.utexas.edu
+
+GUI allocated memory:	157 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,998 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 58 MB (+57906kb) [00:00:08]
+// [Engine Memory]: 4,998 MB (+5088844kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,003 MB. GUI used memory: 34 MB. Current time: 9/24/19 1:27:52 PM CDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/edit_gpio_lab_1_v1_0.xpr", 0); // q (O, cj)
+// Opening Vivado Project: /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/edit_gpio_lab_1_v1_0.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/edit_gpio_lab_1_v1_0.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/edit_gpio_lab_1_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0'. 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2017.4/Vivado/2017.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 6265.688 ; gain = 108.414 ; free physical = 116068 ; free virtual = 131876 
+// Project name: edit_gpio_lab_1_v1_0; location: /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo; part: xc7z020clg484-1
+// [GUI Memory]: 61 MB (+319kb) [00:00:22]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, cj)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v)]", 1); // B (D, cj)
+// PAPropertyPanels.initPanels (gpio_lab_1_v1_0_S00_AXI.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_lab_1_v1_0 (gpio_lab_1_v1_0.v), gpio_lab_1_v1_0_S00_AXI_inst : gpio_lab_1_v1_0_S00_AXI (gpio_lab_1_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 68 MB (+4172kb) [00:00:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,171 MB. GUI used memory: 41 MB. Current time: 9/24/19 1:28:12 PM CDT
+selectCodeEditor("gpio_lab_1_v1_0_S00_AXI.v", 276, 413); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,187 MB. GUI used memory: 41 MB. Current time: 9/24/19 1:28:33 PM CDT
+// Elapsed time: 27 seconds
+selectCodeEditor("gpio_lab_1_v1_0_S00_AXI.v", 326, 202); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cj)
+// [GUI Memory]: 73 MB (+2313kb) [00:01:15]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cj): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (x)
+dismissDialog("Elaborate Design"); // x (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3); // B (D, cj)
+// [GUI Memory]: 79 MB (+2310kb) [00:01:45]
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpio_lab_1_v1_0_S00_AXI.v", 1); // k (j, cj)
+// Elapsed time: 16 seconds
+selectCodeEditor("gpio_lab_1_v1_0_S00_AXI.v", 78, 187); // cd (w, cj)
+selectCodeEditor("gpio_lab_1_v1_0_S00_AXI.v", 122, 218); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cj)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cj)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cj)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+// bs (cj):  Open IP-XACT File : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ipx::open_ipxact_file /home/ecelrc/students/gguglielmo/micro/vivado/ip_repo/gpio_lab_1_1.0/component.xml 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [GUI Memory]: 85 MB (+1848kb) [00:02:25]
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Open IP-XACT File"); // bs (cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, cj)
+selectTable(PAResourceAtoD.AddressBlockFacetTable_ADDRESS_BLOCKS, "S00_AXI_reg ;  ;  ; 0 ; 4096 ; ", 0, "S00_AXI_reg", 0); // F (O, cj)
+selectTable(PAResourceAtoD.AddressBlockFacetTable_ADDRESS_BLOCKS, "S00_AXI_reg ;  ;  ; 0 ; 4096 ; ", 0, "S00_AXI_reg", 0); // F (O, cj)
+selectTreeTable(PAResourceAtoD.AddressBlockParameterFacetTable_ADDRESS_BLOCK_PARAMETER_FACET_TABLE, "OFFSET_BASE_PARAM ;  ;  ; C_S00_AXI_BASEADDR ; default ; ", 0, "OFFSET_BASE_PARAM", 0, false); // K (O, cj)
+selectTreeTable(PAResourceAtoD.AddressBlockParameterFacetTable_ADDRESS_BLOCK_PARAMETER_FACET_TABLE, "OFFSET_HIGH_PARAM ;  ;  ; C_S00_AXI_HIGHADDR ; default ; ", 1, "OFFSET_HIGH_PARAM", 0, false); // K (O, cj)
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "S00_AXI ;  ; ", 0, "S00_AXI", 0); // F (O, cj)
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "S00_AXI ;  ; ", 0, "S00_AXI", 0); // F (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, cj)
+// Elapsed time: 11 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, cj)
+selectTable(PAResourceAtoD.AddressBlockFacetTable_ADDRESS_BLOCKS, "S00_AXI_reg ;  ;  ; 0 ; 4096 ; ", 0, "S00_AXI_reg", 0); // F (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an (O, cj)
+// Elapsed time: 58 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpio_lab_1_v1_0_S00_AXI.v", 1); // k (j, cj)
